@@ -2,13 +2,13 @@ const password = document.getElementById("password");
 const togglePassword = document.getElementById("togglePassword");
 
 togglePassword.addEventListener("mousedown", () => {
-    password.type = "text";
+password.type = "text";
 });
 
 togglePassword.addEventListener("mouseup", () => {
-    password.type = "password";
+password.type = "password";
 });
 
 togglePassword.addEventListener("mouseleave", () => {
-    password.type = "password";
+password.type = "password";
 });
